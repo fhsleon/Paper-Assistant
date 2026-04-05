@@ -1,4 +1,3 @@
-"""Qwen2.5-VL 本地推理；失败时工具返回提示而非抛异常。"""
 from pathlib import Path
 from langchain.tools import tool
 from PIL import Image
