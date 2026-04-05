@@ -14,7 +14,7 @@
 
 - **后端**：FastAPI + LangChain 1.2.6
 - **前端**：Streamlit
-- **模型**：Qwen2.5-3B-Instruct（文本）+ Qwen2.5-VL-3B-Instruct（视觉）
+- **模型**：本地模型Qwen2.5-3B-Instruct（文本）+ Qwen2.5-VL-3B-Instruct（视觉）
 - **向量数据库**：FAISS + BM25 混合检索
 - **Embedding**：BGE-M3
 
@@ -204,9 +204,3 @@ if uploaded_file and not st.session_state.uploading:
 
 ---
 
-## 经验总结
-
-1. **错误处理**：所有 API 调用都应有 try-except 和详细错误信息
-2. **状态管理**：Streamlit 的 session_state 是解决页面刷新问题的关键
-3. **性能优化**：缓存是提升用户体验的重要手段
-4. **模型选择**：根据硬件条件选择合适的模型，小模型也能完成任务
