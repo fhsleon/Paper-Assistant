@@ -1,4 +1,3 @@
-"""论文助手 HTTP API。"""
 import shutil
 import uuid
 from pathlib import Path
