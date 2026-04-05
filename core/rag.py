@@ -1,4 +1,3 @@
-"""RAG：BM25 + 向量 + RRF 融合，可选 CrossEncoder 重排；多论文统一索引。"""
 import os
 import json
 import hashlib
