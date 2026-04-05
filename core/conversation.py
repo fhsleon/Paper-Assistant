@@ -1,9 +1,3 @@
-"""对话逻辑：
-1) 普通聊天：直接调用 LLM
-2) 论文问答：调用 `ask_paper`
-3) 图表问答：从已加载 PDF 提取图片 → vision_tools 识别 → LLM 结合识别结果回答
-"""
-
 from pathlib import Path
 from parsers.pdf_parser import PDFParser
 from config.prompts import SYSTEM_PROMPT
