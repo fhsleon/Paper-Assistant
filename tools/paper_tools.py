@@ -1,4 +1,3 @@
-"""OpenAlex 搜索、ask_paper、上传/列出/切换论文等 LangChain @tool。"""
 import os
 import re
 import shutil
